@@ -1,14 +1,12 @@
+
 module.exports = {
   root: true,
   env: {
-    es6: true,
     browser: true,
-    node: true,
-    node: true,
-    jest: true
+    node: true
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: 'babel-eslint'
   },
   extends: [
     '@nuxtjs',
@@ -20,7 +18,6 @@ module.exports = {
   plugins: [
     'prettier'
   ],
-  // add your custom rules here
   rules: {
     'nuxt/no-cjs-in-config': 'off'
   }
