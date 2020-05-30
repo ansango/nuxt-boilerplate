@@ -2,54 +2,53 @@
 
 > This is a boilerplate with Nuxt JS with the following config:
 
-⋅⋅* Git flow (init)
-⋅⋅* Express
-⋅⋅* Tailwindcss
-⋅⋅* Jest
-⋅⋅* Axios
-⋅⋅* Eslint
-⋅⋅* Prettier
-⋅⋅* Lint Staged Files
-⋅⋅* Stylelint
-⋅⋅* Webpack
-⋅⋅* Sass
-⋅⋅* Babel
-⋅⋅* Postcss
-⋅⋅* Autoprefixer
-⋅⋅* Font-Awesome
-⋅⋅* Netlify *
+- Git flow (init)
+- Express
+- Tailwindcss
+- Jest
+- Axios
+- Eslint
+- Prettier
+- Lint Staged Files
+- Stylelint
+- Webpack
+- Sass
+- Babel
+- Postcss
+- Autoprefixer
+- Font-Awesome
+- Netlify \*
 
 > Nuxt modules
 
-⋅⋅* pwa
-⋅⋅* google analitycs
-⋅⋅* sitemap
-⋅⋅* style-resources
-⋅⋅* redirect
-⋅⋅* google ad sense
-⋅⋅* browserconfig
-⋅⋅* font awesome
-⋅⋅* i18n
-⋅⋅* google tag manager
-⋅⋅* toast
-⋅⋅* device
-⋅⋅* image loader module
-⋅⋅* image min
-⋅⋅* real favicon
-⋅⋅* babel
-⋅⋅* svg loader
-⋅⋅* full-page.js
-⋅⋅* bundle-buddy
-⋅⋅* webfontloader
-⋅⋅* optimized-images
+- pwa
+- google analitycs
+- sitemap
+- style-resources
+- redirect
+- google ad sense
+- browserconfig
+- font awesome
+- i18n
+- google tag manager
+- toast
+- device
+- image loader module
+- image min
+- real favicon
+- babel
+- svg loader
+- full-page.js
+- bundle-buddy
+- webfontloader
+- optimized-images
 
 > Maybe in next version
 
-⋅⋅* Nuxt Prismic
-⋅⋅* Nuxt Wuxt Wordpress
-⋅⋅* Nuxt Mobile Detect
-⋅⋅* Nuxt Markdownit
-
+- Nuxt Prismic
+- Nuxt Wuxt Wordpress
+- Nuxt Mobile Detect
+- Nuxt Markdownit
 
 ## Build Setup
 
