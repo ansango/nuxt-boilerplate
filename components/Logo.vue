@@ -27,6 +27,18 @@
 .NuxtLogo {
   animation: 1s appear;
   margin: auto;
+  /**Prueba IE */
+  white-space: nowrap;
+  margin-top: 5px;
+  background-color: #dff0f9;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  height: 320px;
+  z-index: 1;
+  font-size: 9pt;
+  color: #000;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 @keyframes appear {
