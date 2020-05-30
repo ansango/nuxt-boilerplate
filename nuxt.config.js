@@ -72,7 +72,7 @@ module.exports = {
    ** https://github.com/nuxt-community/sitemap-module
    */
   sitemap: {
-    // options
+    hostname: 'https://ansango.com'
   },
   /*
    ** Build configuration
