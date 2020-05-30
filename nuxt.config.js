@@ -72,7 +72,20 @@ module.exports = {
    ** https://github.com/nuxt-community/sitemap-module
    */
   sitemap: {
-    hostname: 'https://ansango.com'
+    hostname: 'https://example.com',
+    lastmod: '2017-06-30',
+    sitemaps: [
+      {
+        path: '/sitemap-foo.xml',
+        routes: ['foo/1', 'foo/2'],
+        gzip: true
+      },
+      {
+        path: '/folder/sitemap-bar.xml',
+        routes: ['bar/1', 'bar/2'],
+        exclude: ['/**']
+      }
+    ]
   },
   /*
    ** Build configuration
