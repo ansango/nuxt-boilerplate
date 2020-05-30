@@ -1,19 +1,20 @@
 # ansango - nuxt boilerplate
 
-> This is a boilerplate with Nuxt JS with the following config:
+> This is a boilerplate with Nuxt JS with the following config ([i] = installed, [s] = set):
 
-- Git flow (init)
-- Express
-- Tailwindcss
-- Jest
-- Axios
-- Eslint
-- Prettier
-- Lint Staged Files
-- Stylelint
-- Webpack
-- Sass
-- Babel
+- Git flow (init) 
+- Express [i]
+- Tailwindcss [i]
+- Jest [i]
+- Axios [i]
+- Eslint [i]
+- Prettier [i]
+- Lint Staged Files [i]
+- Stylelint [i]
+- Webpack [i]
+- Pug [i]
+- Sass [i]
+- Babel [i]
 - Postcss
 - Autoprefixer
 - Font-Awesome
@@ -21,9 +22,9 @@
 
 > Nuxt modules
 
-- pwa
-- google analitycs
-- sitemap
+- pwa [i]
+- google analitycs [i]
+- sitemap [i]
 - style-resources
 - redirect
 - google ad sense

@@ -37,7 +37,18 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    // Doc: https://github.com/nuxt-community/analytics-module
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-157267645-1',
+        debug: {
+          enabled: true,
+          sendHitTask: true
+        }
+      }
+    ]
   ],
   /*
    ** Nuxt.js modules
@@ -47,13 +58,22 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    // Doc: https://github.com/nuxt-community/sitemap-module [this module at end of array!]
+    '@nuxtjs/sitemap'
   ],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+  /*
+   ** Config Sitemap Module
+   ** https://github.com/nuxt-community/sitemap-module
+   */
+  sitemap: {
+    // options
+  },
   /*
    ** Build configuration
    */
